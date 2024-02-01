@@ -16,6 +16,11 @@ background-color: #132240;
     margin: 0 auto;
 }
 
+.flex{
+    display: flex;
+
+}
+
 
 /*ESTILO CABECARIO*/
 header{
@@ -76,7 +81,10 @@ header .btn-contato button:hover{
 
 }
 
+/*estilo do main*/
+section.top-do-site{
+    padding: 40px 4%;
 
-
+}
 
 
