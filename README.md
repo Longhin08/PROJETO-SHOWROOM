@@ -5,4 +5,4 @@ Projeto bem simples de portfolio em HTML e CSS
 
 
 
-ps: ainda não ta pronto 
+ps: ainda não esta pronto 

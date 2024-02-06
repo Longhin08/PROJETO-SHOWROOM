@@ -2,7 +2,7 @@
    margin: 0;
    padding: 0;
    box-sizing: border-box; 
-   font-family: fantasy
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
    
 }
 
@@ -32,6 +32,16 @@ background-color: #132240;
     
 }
 
+h2.titulo{
+    color: #fff;
+    font-size: 38px;
+    text-align: center;
+}
+
+h2.titulo span{
+    color: #b8870b;
+}
+
 /*ESTILO CABECARIO*/
 header{
     padding: 10px 5%;
@@ -48,6 +58,7 @@ header > .interface{
 header a{
     color: #b8870b73;
     font-size: 15pt;
+    font-weight: 900;
     text-decoration: none;
     display: inline-block;
     transition: .2s;
@@ -92,8 +103,8 @@ section.top-do-site .flex{
 
 .top-do-site h1{
    color: #b8870b;
-   font-size: 35px;
-   line-height: 35px
+   font-size: 45px;
+   line-height: 45px
 }
 
 .top-do-site .txt-topo-site p{
@@ -126,3 +137,79 @@ section .btn-contato:hover{
 
 }
 
+/*ESTILOS ESPECIALIDADES*/
+section.especialidades{
+    padding: 40px 4%;
+    
+
+}
+section.especialidades .flex{
+    gap: 25px;
+    
+}
+
+
+.especialidades .especialidades-box{
+    margin-top: 35px;
+    color: #fff;
+    padding: 30px;
+    border-radius: 30px;
+
+}
+
+.especialidades .especialidades-box:hover{
+    transform: scale(1.05);
+    transition: .2s;
+    box-shadow: 0px 0px 8px #698ebf94
+}
+
+.especialidades .especialidades-box i{
+    font-size: 65px;
+    color: #b8870b;
+}
+
+.especialidades .especialidades-box h3{
+    font-size: 15pt;
+    margin: 15px 0;
+}
+
+/*ESTILO SOBRE*/
+section.sobre{
+    padding: 40px 4%;
+
+}
+
+section .sobre .flex{
+    align-items: center;
+    
+
+}
+
+section .flex .img-sobre{
+    margin: 0 -60px;
+
+
+}
+
+.sobre .txt-sobre{
+    color: #fff;
+}
+
+.sobre .txt-sobre h2{
+    font-size: 40px;
+     line-height: 40px;
+     margin-bottom: 25x;
+     margin: 35px;
+    
+    
+}
+
+.sobre .txt-sobre h2 span{
+    color: #b8870b;
+    display: block;
+}
+
+.sobre .txt-sobre p{
+    margin: 35px;
+    font-size: 14pt;
+}
