@@ -144,8 +144,8 @@ section.especialidades{
 
 }
 section.especialidades .flex{
-    gap: 25px;
-    
+    display: flex; 
+    gap: 25px;   
 }
 
 
@@ -154,13 +154,17 @@ section.especialidades .flex{
     color: #fff;
     padding: 30px;
     border-radius: 30px;
-
+    text-align: justify;
+   
+    
 }
+
+
 
 .especialidades .especialidades-box:hover{
     transform: scale(1.05);
     transition: .2s;
-    box-shadow: 0px 0px 8px #698ebf94
+    box-shadow: 01px 2px 8px #698ebf94
 }
 
 .especialidades .especialidades-box i{
@@ -173,16 +177,20 @@ section.especialidades .flex{
     margin: 15px 0;
 }
 
+.especialidades .especialidades-box p{
+    text-align: justify;
+}
+
 /*ESTILO SOBRE*/
 section.sobre{
     padding: 40px 4%;
 
 }
 
-section .sobre .flex{
+section.sobre .flex{
     align-items: center;
+    gap: 60px;
     
-
 }
 
 section .flex .img-sobre{
@@ -191,25 +199,47 @@ section .flex .img-sobre{
 
 }
 
+.sobre .txt-sobre .btn-habilidades button{
+    padding: 15px;
+    height: 50px;
+    font-size: 15px;
+    background-color: #698ebf;
+    border-radius: 15px;
+    border: 0;
+    cursor: pointer;
+    margin: 1px 10px;
+}
+
+
 .sobre .txt-sobre{
     color: #fff;
 }
 
 .sobre .txt-sobre h2{
     font-size: 40px;
-     line-height: 40px;
-     margin-bottom: 25x;
-     margin: 35px;
-    
+    line-height: 40px;
+    margin-bottom: 25px;
+
     
 }
 
 .sobre .txt-sobre h2 span{
     color: #b8870b;
     display: block;
+    
 }
 
 .sobre .txt-sobre p{
-    margin: 35px;
     font-size: 14pt;
+    margin: 20px 0;
+    text-align: justify;
+    margin-bottom: 25px;
+
+}
+
+.btn-habilidades button:hover{
+    scale: 1.06;
+    transition: 0.2s;
+    box-shadow: 0px 0px 8px #698ebf94 
+    
 }
